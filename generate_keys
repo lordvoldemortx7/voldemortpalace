@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cat banner
+echo "Lord Voldemort's Palace Key Generator"
+echo ""
+
+echo "Do you want to generate new keys? (y/n)"
+read ans
+
+if [ $ans = "y" ] || [ $ans = "Y" ]; then
+	cat .keys
+else
+	echo "Terminating..."
+fi
+
