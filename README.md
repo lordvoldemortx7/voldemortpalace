@@ -1,4 +1,4 @@
-# Lord Voldermort's Palace
+# Lord Voldermort's Palace [DEPRECATED]
 The magic that runs Lord Voldemort's Palace.
 
 ## Introduction

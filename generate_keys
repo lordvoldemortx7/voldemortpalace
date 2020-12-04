@@ -8,7 +8,7 @@ echo "Do you want to generate new keys? (y/n)"
 read ans
 
 if [ $ans = "y" ] || [ $ans = "Y" ]; then
-	cat .keys
+	echo "Could not generate new keys. The script has been deprecated."
 else
 	echo "Terminating..."
 fi
